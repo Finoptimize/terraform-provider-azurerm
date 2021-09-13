@@ -5,3 +5,11 @@ variable "prefix" {
 variable "location" {
   description = "The Azure Region in which all resources in this example should be created."
 }
+
+variable "admin_username" {
+  description = "Admin Username"
+}
+
+variable "admin_password" {
+  description = "Admin Password"
+}
